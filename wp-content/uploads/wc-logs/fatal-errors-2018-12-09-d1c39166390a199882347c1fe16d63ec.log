@@ -1,0 +1,26 @@
+2018-12-09T09:42:51+00:00 CRITICAL Uncaught Error: Call to undefined function ese_html__() in E:\PHP\xampp\htdocs\ecommerce\wp-content\themes\ecommerce\functions.php:29
+Stack trace:
+#0 E:\PHP\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(286): ecom_widgets('')
+#1 E:\PHP\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 E:\PHP\xampp\htdocs\ecommerce\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 E:\PHP\xampp\htdocs\ecommerce\wp-includes\widgets.php(1649): do_action('widgets_init')
+#4 E:\PHP\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(286): wp_widgets_init('')
+#5 E:\PHP\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 E:\PHP\xampp\htdocs\ecommerce\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#7 E:\PHP\xampp\htdocs\ecommerce\wp-settings.php(450): do_action('init')
+#8 E:\PHP\xampp\htdocs\ecommerce\wp-config.php(89): require_once('E:\\PHP\\xampp\\ht...')
+#9 E:\PHP\xampp\htdocs\ecommerce\wp-load.php(37): require_once( in E:\PHP\xampp\htdocs\ecommerce\wp-content\themes\ecommerce\functions.php on line 29
+
+2018-12-09T09:42:58+00:00 CRITICAL Uncaught Error: Call to undefined function ese_html__() in E:\PHP\xampp\htdocs\ecommerce\wp-content\themes\ecommerce\functions.php:29
+Stack trace:
+#0 E:\PHP\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(286): ecom_widgets('')
+#1 E:\PHP\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 E:\PHP\xampp\htdocs\ecommerce\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 E:\PHP\xampp\htdocs\ecommerce\wp-includes\widgets.php(1649): do_action('widgets_init')
+#4 E:\PHP\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(286): wp_widgets_init('')
+#5 E:\PHP\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 E:\PHP\xampp\htdocs\ecommerce\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#7 E:\PHP\xampp\htdocs\ecommerce\wp-settings.php(450): do_action('init')
+#8 E:\PHP\xampp\htdocs\ecommerce\wp-config.php(89): require_once('E:\\PHP\\xampp\\ht...')
+#9 E:\PHP\xampp\htdocs\ecommerce\wp-load.php(37): require_once( in E:\PHP\xampp\htdocs\ecommerce\wp-content\themes\ecommerce\functions.php on line 29
+

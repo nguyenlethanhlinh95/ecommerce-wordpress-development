@@ -28,7 +28,8 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-3">
+
+                    <!-- <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="module-heading">
                             <h4 class="module-title">Customer Service</h4>
                         </div>
@@ -41,7 +42,8 @@
                                 <li class="last"><a href="#" title="Where is my order?">Help Center</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
+                    <?php dynamic_sidebar('footer_widget_one'); ?>
                     <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="module-heading">
                             <h4 class="module-title">Corporation</h4>
@@ -116,8 +118,8 @@
         </div>
     </footer>
     <!-- JavaScripts placed at the end of the document-->
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery-1.11.1.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.min.js"></script>
+    <!-- <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery-1.11.1.min.js"></script> -->
+    <!-- <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap-hover-dropdown.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/owl.carousel.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/echo.min.js"></script>
@@ -127,7 +129,7 @@
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/lightbox.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap-select.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/wow.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/scripts.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/scripts.js"></script> -->
 
     <?php wp_footer(); ?>
 </body>
